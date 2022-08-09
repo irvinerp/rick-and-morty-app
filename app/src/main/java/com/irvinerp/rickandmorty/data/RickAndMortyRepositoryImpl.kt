@@ -4,7 +4,6 @@ import com.irvinerp.rickandmorty.data.remote.RickAndMortyApi
 import com.irvinerp.rickandmorty.data.remote.dto.toCharacters
 import com.irvinerp.rickandmorty.domain.LoadCharactersCallback
 import com.irvinerp.rickandmorty.domain.RickAndMortyRepository
-import com.irvinerp.rickandmorty.utils.AppExecutors
 
 class RickAndMortyRepositoryImpl constructor(
   private val api: RickAndMortyApi,
