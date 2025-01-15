@@ -3,8 +3,8 @@ package com.irvinerp.rickandmorty.ui.characters
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.irvinerp.rickandmorty.domain.LoadCharactersCallback
-import com.irvinerp.rickandmorty.domain.RickAndMortyRepository
+import com.irvinerp.rickandmorty.domain.repository.LoadCharactersCallback
+import com.irvinerp.rickandmorty.domain.repository.RickAndMortyRepository
 import com.irvinerp.rickandmorty.domain.model.Character
 
 class CharactersViewModel constructor(

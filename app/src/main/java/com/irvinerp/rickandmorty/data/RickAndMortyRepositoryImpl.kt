@@ -2,8 +2,8 @@ package com.irvinerp.rickandmorty.data
 
 import com.irvinerp.rickandmorty.data.remote.RickAndMortyApi
 import com.irvinerp.rickandmorty.data.remote.dto.toCharacters
-import com.irvinerp.rickandmorty.domain.LoadCharactersCallback
-import com.irvinerp.rickandmorty.domain.RickAndMortyRepository
+import com.irvinerp.rickandmorty.domain.repository.LoadCharactersCallback
+import com.irvinerp.rickandmorty.domain.repository.RickAndMortyRepository
 
 class RickAndMortyRepositoryImpl constructor(
   private val api: RickAndMortyApi,

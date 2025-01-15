@@ -1,4 +1,4 @@
-package com.irvinerp.rickandmorty.domain
+package com.irvinerp.rickandmorty.domain.repository
 
 import com.irvinerp.rickandmorty.domain.model.Character
 
