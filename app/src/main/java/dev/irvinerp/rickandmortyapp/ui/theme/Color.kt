@@ -1,4 +1,4 @@
-package dev.irvinerp.rickandmorty.ui.theme
+package dev.irvinerp.rickandmortyapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

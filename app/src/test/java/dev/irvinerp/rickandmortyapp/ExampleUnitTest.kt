@@ -1,4 +1,4 @@
-package dev.irvinerp.rickandmorty
+package dev.irvinerp.rickandmortyapp
 
 import org.junit.Test
 

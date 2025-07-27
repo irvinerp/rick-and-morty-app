@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "dev.irvinerp.rickandmorty"
-    compileSdk = 35
+    namespace = "dev.irvinerp.rickandmortyapp"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "dev.irvinerp.rickandmorty"
+        applicationId = "dev.irvinerp.rickandmortyapp"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 

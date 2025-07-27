@@ -1,4 +1,4 @@
-package dev.irvinerp.rickandmorty
+package dev.irvinerp.rickandmortyapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,14 +11,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import dev.irvinerp.rickandmorty.ui.theme.RickAndMortyAppTheme
+import dev.irvinerp.rickandmortyapp.ui.theme.RickandmortyappTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            RickAndMortyAppTheme {
+            RickandmortyappTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Android",
@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    RickAndMortyAppTheme {
+    RickandmortyappTheme {
         Greeting("Android")
     }
 }
